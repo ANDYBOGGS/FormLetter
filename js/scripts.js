@@ -3,8 +3,8 @@ $(document).ready(function() {
     var person1Input = $("input#person1").val();
 
     $(".person1").text(person1Input);
-    
-    $("#story").show();
+
+    $("#letter").show();
 
     event.preventDefault();
   });
